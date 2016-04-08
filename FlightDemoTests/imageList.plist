@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TSA</key>
+	<dict>
+		<key>attributionURL</key>
+		<string>https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_September.jpg</string>
+		<key>attributionLabel</key>
+		<string>Photo by Suspencewl / CC0</string>
+		<key>largeResource</key>
+		<string>airportYVRlarge</string>
+		<key>previewResource</key>
+		<string>airportYVRpreview</string>
+	</dict>
+	<key>Default</key>
+	<dict>
+		<key>attributionURL</key>
+		<string>https://commons.wikimedia.org/wiki/File:HFX_Airport_7.jpg</string>
+		<key>previewResource</key>
+		<string>airportDefaultpreview</string>
+		<key>largeResource</key>
+		<string>airportDefaultlarge</string>
+		<key>attributionLabel</key>
+		<string>Photo by RobNS / Public Domain</string>
+	</dict>
+	<key>YVR</key>
+	<dict>
+		<key>attributionURL</key>
+		<string>https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_September.jpg</string>
+		<key>attributionLabel</key>
+		<string>Photo by Suspencewl / CC0</string>
+		<key>largeResource</key>
+		<string>airportYVRlarge</string>
+		<key>previewResource</key>
+		<string>airportYVRpreview</string>
+	</dict>
+</dict>
+</plist>

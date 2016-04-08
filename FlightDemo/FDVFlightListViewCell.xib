@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="FDVFlightListViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airportDefaultpreview" translatesAutoresizingMaskIntoConstraints="NO" id="Xbg-EK-ILF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January 27, 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMp-2D-cHl">
+                        <rect key="frame" x="8" y="8" width="111" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aT-9s-DZn">
+                        <rect key="frame" x="8" y="26" width="78" height="25"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vancouver" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ej-jT-vp6">
+                        <rect key="frame" x="167" y="31" width="145" height="40"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84C-UX-XRW">
+                        <rect key="frame" x="8" y="51" width="25" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Xbg-EK-ILF" secondAttribute="bottom" id="5cU-I8-1Ly"/>
+                    <constraint firstItem="QMp-2D-cHl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="CUS-sM-hj6"/>
+                    <constraint firstItem="QMp-2D-cHl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Mk9-Kz-0Zx"/>
+                    <constraint firstItem="4aT-9s-DZn" firstAttribute="leading" secondItem="QMp-2D-cHl" secondAttribute="leading" id="X8M-3O-Nl9"/>
+                    <constraint firstAttribute="trailing" secondItem="Xbg-EK-ILF" secondAttribute="trailing" id="ZY7-N3-s4t"/>
+                    <constraint firstAttribute="trailing" secondItem="7Ej-jT-vp6" secondAttribute="trailing" constant="8" id="cCp-E7-Y7P"/>
+                    <constraint firstItem="Xbg-EK-ILF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="e6l-jn-bJd"/>
+                    <constraint firstAttribute="bottom" secondItem="7Ej-jT-vp6" secondAttribute="bottom" constant="8" id="f3b-ll-lDA"/>
+                    <constraint firstItem="84C-UX-XRW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="pyl-ac-Tmq"/>
+                    <constraint firstItem="Xbg-EK-ILF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="q23-Ev-Xao"/>
+                    <constraint firstItem="84C-UX-XRW" firstAttribute="top" secondItem="4aT-9s-DZn" secondAttribute="bottom" id="qLS-Jq-HVf"/>
+                    <constraint firstItem="84C-UX-XRW" firstAttribute="bottom" secondItem="4aT-9s-DZn" secondAttribute="bottom" id="tam-cc-E7Z"/>
+                    <constraint firstItem="4aT-9s-DZn" firstAttribute="top" secondItem="QMp-2D-cHl" secondAttribute="bottom" id="yts-3O-WqE"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="tam-cc-E7Z"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration" identifier="FDVFlightListViewCellReuseIdentifier"/>
+            <connections>
+                <outlet property="arrivalAirportImage" destination="Xbg-EK-ILF" id="5X4-bq-PZJ"/>
+                <outlet property="arrivalCommonNameLabel" destination="7Ej-jT-vp6" id="2Oz-Al-KdW"/>
+                <outlet property="departureDateLabel" destination="QMp-2D-cHl" id="QLg-dD-b77"/>
+                <outlet property="departureTimeLabel" destination="4aT-9s-DZn" id="uDb-6F-Rfq"/>
+                <outlet property="departureTimeZoneLabel" destination="84C-UX-XRW" id="tZR-9p-ESc"/>
+            </connections>
+            <point key="canvasLocation" x="217" y="316"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="airportDefaultpreview" width="457" height="240"/>
+    </resources>
+</document>

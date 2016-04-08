@@ -1,0 +1,46 @@
+{  
+   "flights":[  
+      {  
+         "flightNumber":"AC100",
+         "airline":"Air Canada",
+         "departure":{  
+            "datetime":1470587400,
+            "terminal":"USA",
+            "gate":"34",
+            "iataCode":"YVR"
+         },
+         "arrival":{  
+            "datetime":1470601800,
+            "terminal":"International",
+            "gate":"34",
+            "iataCode":"SJU"
+         }
+      },
+   ],
+   "airports":[
+      {
+         "iataCode":"SJU",
+         "commonCity": "San Juan",
+         "name":"Luis Muñoz Marín International Airport",
+         "timezone":"EST",
+         "address":"Carolina, 00979",
+         "city":"San Juan",
+         "province":"Puerto Rico",
+         "country":"USA",
+         "gpsLatitude":18.439167,
+         "gpsLongitude":-66.001944
+      },
+      {  
+         "iataCode":"YVR",
+         "commonCity": "Vancouver",
+         "name":"Vancouver International Airport",
+         "timezone":"PST",
+         "address":"3211 Grant McConachie Way",
+         "city":"Richmond",
+         "province":"British Columbia",
+         "country":"Canada",
+         "gpsLatitude":49.194722,
+         "gpsLongitude":-123.183889
+      }
+   ]
+}

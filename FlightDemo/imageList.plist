@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Default</key>
+	<dict>
+		<key>attributionURL</key>
+		<string>https://commons.wikimedia.org/wiki/File:HFX_Airport_7.jpg</string>
+		<key>previewResource</key>
+		<string>airportDefaultpreview</string>
+		<key>largeResource</key>
+		<string>airportDefaultlarge</string>
+		<key>attributionLabel</key>
+		<string>Photo by RobNS / Public Domain</string>
+	</dict>
+	<key>YYZ</key>
+	<dict>
+		<key>attributionURL</key>
+		<string>https://commons.wikimedia.org/wiki/File:2014_Skyline_Toronto_ON.jpg</string>
+		<key>attributionLabel</key>
+		<string>Photo by William B. Grice / CC BY-SA</string>
+		<key>largeResource</key>
+		<string>airportYYZlarge</string>
+		<key>previewResource</key>
+		<string>airportYYZpreview</string>
+	</dict>
+	<key>YVR</key>
+	<dict>
+		<key>attributionURL</key>
+		<string>https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_September.jpg</string>
+		<key>attributionLabel</key>
+		<string>Photo by Suspencewl / CC0</string>
+		<key>largeResource</key>
+		<string>airportYVRlarge</string>
+		<key>previewResource</key>
+		<string>airportYVRpreview</string>
+	</dict>
+	<key>SJU</key>
+	<dict>
+		<key>attributionLabel</key>
+		<string>Photo by OliverZena / Public Domain</string>
+		<key>attributionURL</key>
+		<string>https://commons.wikimedia.org/wiki/File:San_Juan_skyline.jpg</string>
+		<key>largeResource</key>
+		<string>airportSJUlarge</string>
+		<key>previewResource</key>
+		<string>airportSJUpreview</string>
+	</dict>
+</dict>
+</plist>
