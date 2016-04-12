@@ -30,7 +30,7 @@ NSString * const FDVFlightListViewCellReuseIdentifier = @"FDVFlightListViewCell"
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [_tableView registerNib:[UINib nibWithNibName:@"FDVFlightListViewCell" bundle:nil] forCellReuseIdentifier:FDVFlightListViewCellReuseIdentifier];
+    [_tableView registerNib:[UINib nibWithNibName:FDVFlightListViewCellNibName bundle:nil] forCellReuseIdentifier:FDVFlightListViewCellReuseIdentifier];
 }
 
 - (void)viewWillAppear:(BOOL)animated

@@ -21,7 +21,6 @@ NSString * const FDMFlightManagerNotificationFlightsUpdated = @"FDMFlightManager
 
 @implementation FDMFlightManager {
     NSArray *_allFlights;
-    dispatch_queue_t _updateQueue;
 }
 
 + (instancetype)sharedInstance {
